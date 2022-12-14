@@ -12,7 +12,7 @@ I'm currently a reserach scholar at the International Centre for Theoretical Sci
 
 
 # Research Interests
-I work on data assimilation and solving PDEs and variational problems with machine learning. I like working on a wide range of problems. Some of my past projects include atmospheric plume modelling, music genre classification, predicting visual stmuli from fMRI data. Some visual examples from my current projects can be seen at the gallery linked above.
+I work on data assimilation and solving PDEs and variational problems with machine learning. I like working on a wide range of problems. Some of my past projects include atmospheric plume modelling, music genre classification, predicting visual stimuli from fMRI data. Some visual examples from my current projects can be seen at the gallery linked above.
 
 
 
