@@ -1,13 +1,13 @@
----
+<!-- ---
 layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
----
-
-{% include base_path %}
+--- -->
+<embed src="{{ site.https://github.com/pinakm9/pinakm9.github.io }}/files/cv.pdf" width="600" height="700" type='application/pdf'> 
+<!-- {% include base_path %}
 
 Education
 ======
@@ -57,3 +57,4 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+ -->
