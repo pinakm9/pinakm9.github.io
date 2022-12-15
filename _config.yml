@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Pinak Mandal"
-  avatar           : "images/profile.jpg"
+  avatar           : "profile.jpg"
   bio              : #"Your biography for the left-hand sidebar"
   location         : "Bangalore/India"
   employer         :
