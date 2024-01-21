@@ -1,25 +1,11 @@
 # main links links
 main:
-#   - title: "Research Statement"
-#     url: https://github.com/pinakm9/pinakm9.github.io/blob/master/files/research_statement.pdf
-
-#   - title: "Talks"
-#     url: /talks/    
-
-#   - title: "Teaching"
-#     url: /teaching/    
-    
   - title: "Gallery"
     url: https://pinakm9.github.io/gallery22/
-        
-#   - title: "Blog Posts"
-#     url: /year-archive/
     
   - title: "CV"
     url: https://github.com/pinakm9/pinakm9.github.io/blob/master/files/cv-pub-ref.pdf
     
   - title: "Publications"
     url: https://github.com/pinakm9/pinakm9.github.io/blob/master/files/publication_list.pdf
-    
-#   - title: "Guide"
-#     url: /markdown/
+
