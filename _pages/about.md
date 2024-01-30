@@ -11,7 +11,7 @@ output: html_document
 
 <style type="text/css">
   body{
-  font-family: "Times New Roman"";
+  font-family: "Times New Roman";
 }
 </style>
 
