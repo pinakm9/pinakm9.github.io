@@ -15,9 +15,15 @@ output: html_document
   }
   h1{
     font-size: 12pt;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif;
   }
   body{
     font-size: 10pt;
+  }
+  a:link {
+    color: deeppink;
+    background-color: transparent;
+    text-decoration: none;
   }
 </style>
 
