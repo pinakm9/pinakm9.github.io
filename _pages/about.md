@@ -10,9 +10,12 @@ output: html_document
 ---
 
 <style type="text/css">
-  body{
-  font-family: "Times New Roman";
-}
+  * {
+  font-family: Consolas, Menlo, Monaco, Lucida Console, "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif;
+  }
+  h1{
+    font-size: large;
+  }
 </style>
 
 I'm currently a postdoc at the University of Sydney under professor [Georg Gottwald](https://www.maths.usyd.edu.au/u/gottwald/) and we work on problems in machine learning and dynamical systems. Before this I was a PhD student at the International Centre for Theoretical Sciences - Tata Institute of Fundamental Research under professor [Amit Apte](https://www.iiserpune.ac.in/research/department/data-science/people/faculty/regular-faculty/amit-apte/359) and professor [Vishal Vasan](https://www.icts.res.in/people/vishal-vasan).
