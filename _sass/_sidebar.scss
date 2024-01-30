@@ -96,8 +96,8 @@
 .author__content {
   display: table-cell;
   vertical-align: top;
-  padding-left: 15px;
-  padding-right: 25px;
+  padding-left: 50pt;
+  padding-right: 25pt;
   line-height: 1;
 
   @include breakpoint($large) {
