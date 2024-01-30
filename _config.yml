@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Pinak Mandal"
-  avatar           : "profile2.png"
+  avatar           : "profile3.png"
   bio              : #"Your biography for the left-hand sidebar"
   location         : #"Glebe/NSW"
   employer         :
@@ -249,8 +249,8 @@ defaults:
 
 
 
-# sass:
-#   sass_dir: _sass
+sass:
+  sass_dir: _sass
 #   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Outputting
