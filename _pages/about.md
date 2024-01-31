@@ -23,13 +23,13 @@ output: html_document
   a:link {
     color: deeppink;
     background-color: transparent;
-    text-decoration: none;
+    text-decoration: underline;
   }
 
   a:visited {
     color: deeppink;
     background-color: transparent;
-    text-decoration: none;
+    text-decoration: underline;
   }
 </style>
 
