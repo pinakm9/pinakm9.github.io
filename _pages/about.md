@@ -21,13 +21,13 @@ output: html_document
     font-size: 0.9em;
   }
   a:link {
-    color: deeppink;
+    color: #EE687C;
     background-color: transparent;
     text-decoration: underline;
   }
 
   a:visited {
-    color: deeppink;
+    color: #EE687C;
     background-color: transparent;
     text-decoration: underline;
   }
