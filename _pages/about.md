@@ -14,11 +14,11 @@ output: html_document
   font-family: Consolas, Menlo, Monaco, Lucida Console, "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif;
   }
   h1{
-    font-size: 22px;
+    font-size: 18px;
     font-family: Consolas, Menlo, Monaco, Lucida Console, "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif;
   }
   body{
-    font-size: 18px;
+    font-size: 12px;
   }
   a:link {
     color: deeppink;
