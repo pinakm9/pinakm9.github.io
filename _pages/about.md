@@ -20,16 +20,11 @@ output: html_document
   body{
     font-size: 100%;
   }
-  a:link {
+  a:link, a:visited {
     color: deeppink;
     background-color: transparent;
-    text-decoration: bold;
-  }
-
-  a:visited {
-    color: deeppink;
-    background-color: transparent;
-    text-decoration: bold;
+    text-decoration: none;
+    font-weight: bold;
   }
 </style>
 
