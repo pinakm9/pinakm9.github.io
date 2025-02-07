@@ -6,7 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
 --- -->
-<embed src="{{ site.https://github.com/pinakm9/pinakm9.github.io }}/files/cv.pdf" width="600" height="700" type='application/pdf'> 
+<embed src="{{ site.https://github.com/pinakm9/pinakm9.github.io }}/files/Pinak_Mandal_CV.pdf" width="600" height="700" type='application/pdf'> 
 <!-- {% include base_path %}
 
 Education
