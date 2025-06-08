@@ -1,0 +1,123 @@
+\documentclass[a4paper, 11pt]{article}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{xcolor}
+\usepackage{inconsolata}
+\usepackage{graphicx}
+
+\renewcommand{\familydefault}{\ttdefault}
+
+
+\definecolor{deeppink}{rgb}{1.0, 0.0, 0.5} % Define the missing color
+\definecolor{linkblue}{rgb}{0.0, 0.0, 1.0} % Define blue color for links
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkblue,
+    urlcolor=linkblue,
+}
+
+\setlist{itemsep=6pt, parsep=0pt}
+
+\renewcommand{\labelitemii}{$\circ$} % Change second-level bullets
+\renewcommand{\labelitemiii}{$\diamond$} % Change third-level bullets
+\titleformat{\section}{\large\bfseries\color{deeppink}}{}{0em}{}
+
+\begin{document}
+
+\noindent
+\begin{minipage}{0.75\textwidth}
+    \textbf{\huge Pinak Mandal} \\
+    \vspace{5pt} \\
+    Glebe - 2037, NSW \\
+    Email: \textbf{\href{mailto:pinak.mandal@sydney.edu.au}{\color{linkblue}pinak.mandal@sydney.edu.au}} \\
+    Website: \textbf{\href{https://pinakm9.github.io/}{\color{linkblue}https://pinakm9.github.io/}}
+\end{minipage}%
+\begin{minipage}{0.24\textwidth}
+    % \includegraphics[width=\linewidth]{imgs/volcano-wobg.png} 
+\end{minipage}
+
+\noindent\rule{\textwidth}{3pt} % Horizontal line
+
+\section*{Education and Work}
+\begin{itemize}
+    \item \textbf{University of Sydney, Sydney}   \hfill 2023 - 2025\\
+    Postdoc (Machine Learning and Dynamical Systems)
+    \item \textbf{International Centre for Theoretical Sciences, Bengaluru}\hfill 2017 - 2023 \\ PhD (Applied Mathematics and Deep Learning) \\
+    Thesis: Numerical Filter Stability, Fokker-Planck Equations and \\Infinite Dimensional Optimization with Deep Learning
+    \item \textbf{Jadavpur University, Kolkata} - MSc (Mathematics) \hfill 2014 - 2016
+    \item \textbf{Jadavpur University, Kolkata} - BSc (Mathematics) \hfill 2011 - 2014
+\end{itemize}
+
+
+\section*{Some Academic Highlights}
+
+\begin{itemize}
+    \item 2nd place at national level mathematics exam IIT-JAM \hfill 2014
+    \item 9th place at national level mathematics exam TIFR-GS \hfill 2016
+    \item 15th place at national level math exam (for lecturership in India) NET \hfill 2016
+    \item Future Research Talent Fellow (Australian National University) \hfill 2021
+\end{itemize}
+
+\section*{Projects}
+I have worked on a broad range of applied problems with a recent focus in fundamental machine learning. 
+\begin{itemize}
+    \item \textbf{Unlearning via orthogonalization in generative models, USyd}\hfill 2025\\
+    Developed fast algorithms for forgetting sensitive data in generative models.
+
+     \item \textbf{Learning dynamical systems from data with Random Feature Maps, USyd}\hfill 2024\\
+    Developed a data-driven mathod for sampling the non-trainable parameters of tanh random feature maps. Conceptualized and implemented deep and local variants of the random feature map to achieve state-of-the-art forecast times for chaotic dynamical systems.
+
+    \item \textbf{Solving partial differential equations and constrained optimization problems with deep learning, ICTS}\hfill 2021-2023\\
+    Developed deep learning based algorithms for solving high-dimensional Fokker-Planck equations and problems in calculus of variations.
+
+    \item \textbf{Data Assimilation, ICTS}\hfill 2020-2021\\
+    Developed and applied a method for computationally assessing the stability of numerical filters such as EnKF and particle filters.
+    
+    \item \textbf{Predicting Visual Stimuli from fMRI Data, Neuromatch Academy }\hfill2021\\
+    Used fMRI data to predict images seen by human subjects (in collaboration with an international group of graduate students).
+    
+    \item \textbf{Atmospheric Plume Modelling, ICTS}\hfill2019\\
+    Developed a PDE-based model for air pollution estimation using OpenStreetMap data.
+    
+    \item \textbf{Data Analytics, Computational Geometry and Topology, and Genetic Algorithms IISc}\hfill 2018\\
+    These short projects include, but are not limited to, analyzing chromosome data to determine gene configurations that cause color blindness, finding social structures in a groups of dolphins in Doubtful Sound (NZ), music genre classification with machine learning, designing approximate solvers for NP-hard problems with genetic algorithms, and exploring the structure of the telecom data of Trentino using topological data analysis.
+\end{itemize}
+
+
+\section*{Conferences}
+I have presented my work at several conferences. Some of them are listed below.
+\begin{itemize}
+    \item Numerical methods for complex high dimensional systems - Jervis Bay\hfill2024
+    \item 6th workshop on sequential Monte Carlo methods - ICMS, Edinburgh\hfill2024
+    \item Variational principles of plasma confinement in 3D magnetic fields - ANU, Canberra\hfill 2023
+    \item 7th Indian control conference - IIT Bombay, Mumbai\hfill 2021
+\end{itemize}
+In 2025 I helped organize a minisymposium titled "Data-driven reconstruction and forecasting of dynamical systems" at SIAM DS25 in Denver.
+
+\section*{Publications and Visualizations}
+\begin{itemize}
+    \item I have several first-author articles accepted in leading journals, including \textbf{Nature Communications, Foundations of Data Science, Physica D,} and \textbf{IEEE}. A list of my research articles can be found \textbf{\href{https://pinakm9.github.io/_pages/publications.html}{\color{linkblue}here.}}
+    %at \textbf{\href{https://scholar.google.com/citations?user=e23MBuQAAAAJ&hl=en}{\color{linkblue}Google Scholar}}.
+    \item A gallery of visualizations from some of my projects is available at my \textbf{\href{https://pinakm9.github.io/gallery22/}{\color{linkblue}GitHub page}}.
+\end{itemize}
+
+\section*{Software}
+I am primarily a Python coder with some experience in MATLAB and C. I have written several Python modules for my projects, and have several years of experience with Python's standard scientific libraries as well as ML libraries such as TensorFlow and PyTorch. Most of my software projects, such as \textbf{\href{https://github.com/pinakm9/DeepRFM}{DeepRFM}} and \textbf{\href{https://github.com/pinakm9/forget}{forget}}, are publicly availble on \textbf{\href{https://github.com/pinakm9}{\color{linkblue}GitHub}}.
+
+\section*{Referees}
+\textbf{\href{https://www.maths.usyd.edu.au/u/gottwald/}{\color{linkblue}Georg Gottwald - USyd}},
+\textbf{\href{https://www.iiserpune.ac.in/research/department/data-science/people/faculty/regular-faculty/amit-apte/359}{\color{linkblue}Amit Apte - IISER Pune}},
+ \textbf{\href{https://www.icts.res.in/people/vishal-vasan}{\color{linkblue}Vishal Vasan - ICTS}} 
+   ,  
+ \textbf{\href{http://math.tifrbng.res.in/~sreekar/Site/Home.html}{\color{linkblue}Sreekar Vadlamni - TIFR CAM}}
+ 
+
+
+\end{document}
+
+
