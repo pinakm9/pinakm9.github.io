@@ -10,20 +10,21 @@ output: html_document
 ---
 
 <style type="text/css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
-  
+  /* <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet"> */
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
   * {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', 'Inter', sans-serif;
   }
   h1{
     font-size: 140%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', 'Inter', sans-serif;
   }
   body{
     font-size: 100%;
   }
   a:link, a:visited {
-    color: royalblue;
+    color: #2200CC;
     background-color: transparent;
     text-decoration: none;
     font-weight: bold;
