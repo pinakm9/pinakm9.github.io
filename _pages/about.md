@@ -17,12 +17,12 @@ output: html_document
   }
   h1{
     font-size: 140%;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
   body{
     font-size: 100%;
   }
-  a:link {
+  a:link, a:visited {
     color: royalblue;
     background-color: transparent;
     text-decoration: none;
